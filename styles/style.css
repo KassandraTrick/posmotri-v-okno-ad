@@ -101,9 +101,17 @@ ol {
   position: relative;
 }
 
+
 .result__video {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: center;
   cursor: pointer;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
 }
