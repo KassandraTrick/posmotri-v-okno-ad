@@ -146,3 +146,38 @@ ol {
   width: 194px;
   height: 103px;
 }
+
+.content__video-card-title {
+  /* подзаголовок видеокарточки с ... */
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 196px;
+}
+
+.content__video-card-description {
+  /* описание видеокарточки с ... */
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16.2px;
+  width: 196px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content__video-card-description-container {
+  /* левая часть видеокарточки с текстом */
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
